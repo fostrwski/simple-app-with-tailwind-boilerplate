@@ -1,0 +1,22 @@
+{
+  "name": "simple-app-with-tailwind-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwindcss:watch": "npx tailwindcss -i ./styles/tailwind.css -o ./styles/index.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franekostrowski/simple-app-with-tailwind-boilerplate.git"
+  },
+  "author": "@franekostrowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franekostrowski/simple-app-with-tailwind-boilerplate/issues"
+  },
+  "homepage": "https://github.com/franekostrowski/simple-app-with-tailwind-boilerplate#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
